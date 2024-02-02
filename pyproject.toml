@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "neko-demo-impl"
+version = "0.1.0"
+description = ""
+authors = ["hhh"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+neko-demo-standard = {git="https://github.com/nekomatad/neko-demo-standard.git"}
+#neko-demo-standard = {path = "../neko-demo-standard", develop = true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
