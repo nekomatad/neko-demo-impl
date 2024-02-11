@@ -1,8 +1,8 @@
-from neko_demo_standard.__internal.some_internal_logic_mixins import (
+from neko_demo_std.__internal.some_internal_logic_mixins import (
     FirstAbstractMixin,
     SecondAbstractMixin
 )
-from neko_demo_standard.neko.types import SomeDemoClass
+from neko_demo_std.neko.types import SomeDemoClass
 
 
 class FirstMixin(FirstAbstractMixin):

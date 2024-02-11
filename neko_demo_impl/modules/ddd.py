@@ -1,4 +1,4 @@
-from neko_demo_standard.neko.types import SomeOtherDemoClass
+from neko_demo_std.neko.types import SomeOtherDemoClass
 
 
 class FirstMixin:

@@ -7,8 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-neko-demo-standard = {git="https://github.com/nekomatad/neko-demo-standard.git"}
-#neko-demo-standard = {path = "../neko-demo-standard", develop = true}
+
+
+[tool.poetry.group.neko.dependencies]
+neko-demo-std = {path = "../neko-demo-std", develop = true}
 
 
 [build-system]

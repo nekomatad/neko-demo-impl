@@ -1,4 +1,4 @@
-from neko_demo_standard import DemoInterface
+from neko_demo_std import DemoInterface
 
 
 class RDemoInterface(DemoInterface):
